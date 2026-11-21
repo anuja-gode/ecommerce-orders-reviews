@@ -1,12 +1,12 @@
 ### \# Sentiment Evaluation
 
-\# **1) Objective**
+## **1) Objective**
 
 Evaluate the LLM-generated sentiment labels against the reference labels using accuracy.
 
 
 
-\# **2) Evaluation Results**
+## **2) Evaluation Results**
 
 | Review                                     | Reference | LLM Prediction | Result    |
 
@@ -22,7 +22,7 @@ Evaluate the LLM-generated sentiment labels against the reference labels using a
 
 
 
-\# **3) Accuracy Calculation**
+## **3) Accuracy Calculation**
 
 Total reviews=4
 
@@ -34,9 +34,9 @@ Accuracy=(2/4)\*100=50%
 
 
 
-\# **4) Ambiguous and Borderline Cases**
+## **4) Ambiguous and Borderline Cases**
 
-\### Case 1: Mixed Sentiment
+### Case 1: Mixed Sentiment
 
 Review: "Works fine but the battery died in a week."
 
@@ -49,7 +49,7 @@ LLM prediction: Positive
 The LLM failed to consider the negative aspect of the review.
 
 
-\### Case 2: Neutral Sentiment
+### Case 2: Neutral Sentiment
 
 Review: "It's okay, nothing special."
 
@@ -63,7 +63,7 @@ The LLM incorrectly interpreted mild acceptance as positive sentiment.
 
 
 
-\# **5) Conclusion**
+## **5) Conclusion**
 
 The LLM achieved 50% accuracy on the given dataset.
 
