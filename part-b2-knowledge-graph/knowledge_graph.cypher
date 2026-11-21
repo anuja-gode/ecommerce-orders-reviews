@@ -1,4 +1,4 @@
-• Graph Creation Query
+// Graph Creation Query
 // Create customers
 CREATE (a:Customer {name: 'Customer A'})
 CREATE (b:Customer {name: 'Customer B'})
@@ -42,12 +42,12 @@ CREATE (r1)-[:REVIEWS]->(l)
 CREATE (r2)-[:REVIEWS]->(h)
 
 
-• Graph Visualization Query
+// Graph Visualization Query
 MATCH (n)-[r]->(m)
 RETURN n, r, m
 
 
-• Final Assignment Query
+// Final Assignment Query
 MATCH (c:Customer)-[:WROTE]->(r:Review)
 WHERE r.sentiment='negative'
 MATCH (c:Customer)-[:PURCHASED]->(p:Product)
