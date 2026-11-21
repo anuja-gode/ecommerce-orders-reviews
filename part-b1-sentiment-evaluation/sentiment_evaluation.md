@@ -1,11 +1,13 @@
 ### \# Sentiment Evaluation
 
 \# **1) Objective**
+
 Evaluate the LLM-generated sentiment labels against the reference labels using accuracy.
 
 
 
 \# **2) Evaluation Results**
+
 | Review                                     | Reference | LLM Prediction | Result    |
 
 |--------------------------------------------|-----------|----------------|-----------|
@@ -21,6 +23,7 @@ Evaluate the LLM-generated sentiment labels against the reference labels using a
 
 
 \# **3) Accuracy Calculation**
+
 Total reviews=4
 
 Correct predictions=2
@@ -45,6 +48,7 @@ LLM prediction: Positive
 
 The LLM failed to consider the negative aspect of the review.
 
+
 \### Case 2: Neutral Sentiment
 
 Review: "It's okay, nothing special."
@@ -60,6 +64,9 @@ The LLM incorrectly interpreted mild acceptance as positive sentiment.
 
 
 \# **5) Conclusion**
+
 The LLM achieved 50% accuracy on the given dataset.
+
 It correctly classified clearly positive and negative reviews but struggled with mixed and neutral sentiment.
+
 The model needs improvement in understanding context, contrasting opinions, and subtle sentiment.
