@@ -1,0 +1,326 @@
+[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "name": "Customer A"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:0"
+    },
+    "r": {
+      "identity": 1152921504606846976,
+      "start": 0,
+      "end": 2,
+      "type": "PURCHASED",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152921504606846976",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:0",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:2"
+    },
+    "m": {
+      "identity": 2,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "name": "Laptop"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:2"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "name": "Customer A"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:0"
+    },
+    "r": {
+      "identity": 1155173304420532224,
+      "start": 0,
+      "end": 3,
+      "type": "PURCHASED",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1155173304420532224",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:0",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:3"
+    },
+    "m": {
+      "identity": 3,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "name": "Mobile"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "name": "Customer A"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:0"
+    },
+    "r": {
+      "identity": 1152923703630102528,
+      "start": 0,
+      "end": 7,
+      "type": "WROTE",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152923703630102528",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:0",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "Review"
+      ],
+      "properties": {
+        "sentiment": "negative",
+        "text": "Battery died in a week"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "name": "Customer B"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1"
+    },
+    "r": {
+      "identity": 1152921504606846977,
+      "start": 1,
+      "end": 4,
+      "type": "PURCHASED",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152921504606846977",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:4"
+    },
+    "m": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "name": "Headphones"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "name": "Customer B"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1"
+    },
+    "r": {
+      "identity": 1152923703630102529,
+      "start": 1,
+      "end": 8,
+      "type": "WROTE",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152923703630102529",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:8"
+    },
+    "m": {
+      "identity": 8,
+      "labels": [
+        "Review"
+      ],
+      "properties": {
+        "sentiment": "positive",
+        "text": "Excellent product"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "name": "Laptop"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:2"
+    },
+    "r": {
+      "identity": 1152922604118474754,
+      "start": 2,
+      "end": 5,
+      "type": "BELONGS_TO",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152922604118474754",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:2",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Electronics"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "name": "Mobile"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:3"
+    },
+    "r": {
+      "identity": 1152922604118474755,
+      "start": 3,
+      "end": 5,
+      "type": "BELONGS_TO",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152922604118474755",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:3",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Electronics"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "name": "Headphones"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:4"
+    },
+    "r": {
+      "identity": 1152922604118474756,
+      "start": 4,
+      "end": 6,
+      "type": "BELONGS_TO",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152922604118474756",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:4",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:6"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Accessories"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Review"
+      ],
+      "properties": {
+        "sentiment": "negative",
+        "text": "Battery died in a week"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:7"
+    },
+    "r": {
+      "identity": 1152924803141730311,
+      "start": 7,
+      "end": 2,
+      "type": "REVIEWS",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152924803141730311",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:7",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:2"
+    },
+    "m": {
+      "identity": 2,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "name": "Laptop"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:2"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Review"
+      ],
+      "properties": {
+        "sentiment": "positive",
+        "text": "Excellent product"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:8"
+    },
+    "r": {
+      "identity": 1152924803141730312,
+      "start": 8,
+      "end": 4,
+      "type": "REVIEWS",
+      "properties": {},
+      "elementId": "5:d1b56388-067e-4da8-b7b2-7e87c113ccf2:1152924803141730312",
+      "startNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:8",
+      "endNodeElementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:4"
+    },
+    "m": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "name": "Headphones"
+      },
+      "elementId": "4:d1b56388-067e-4da8-b7b2-7e87c113ccf2:4"
+    }
+  }
+]

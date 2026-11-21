@@ -1,0 +1,11 @@
+n,r,m
+(:Customer {name: Customer A}),[:PURCHASED],(:Product {name: Laptop})
+(:Customer {name: Customer A}),[:PURCHASED],(:Product {name: Mobile})
+(:Customer {name: Customer A}),[:WROTE],"(:Review {sentiment: negative, text: Battery died in a week})"
+(:Customer {name: Customer B}),[:PURCHASED],(:Product {name: Headphones})
+(:Customer {name: Customer B}),[:WROTE],"(:Review {sentiment: positive, text: Excellent product})"
+(:Product {name: Laptop}),[:BELONGS_TO],(:Category {name: Electronics})
+(:Product {name: Mobile}),[:BELONGS_TO],(:Category {name: Electronics})
+(:Product {name: Headphones}),[:BELONGS_TO],(:Category {name: Accessories})
+"(:Review {sentiment: negative, text: Battery died in a week})",[:REVIEWS],(:Product {name: Laptop})
+"(:Review {sentiment: positive, text: Excellent product})",[:REVIEWS],(:Product {name: Headphones})
