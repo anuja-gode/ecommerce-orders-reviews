@@ -29,6 +29,7 @@ Accuracy=(2/4)\*100=50%
 
 
 \# **4) Ambiguous and Borderline Cases**
+
 \### Case 1: Mixed Sentiment
 Review: "Works fine but the battery died in a week."
 The review contains both positive and negative sentiment. The product works fine, but the battery failure indicates a significant issue.
