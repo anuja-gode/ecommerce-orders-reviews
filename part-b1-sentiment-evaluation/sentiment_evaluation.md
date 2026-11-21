@@ -8,18 +8,12 @@ Evaluate the LLM-generated sentiment labels against the reference labels using a
 
 ## **2) Evaluation Results**
 
-| Review                                     | Reference | LLM Prediction | Result    |
-
-|--------------------------------------------|-----------|----------------|-----------|
-
-| Works fine but the battery died in a week. | Mixed     | Positive       | Incorrect |
-
-| Exactly what I needed, five stars!         | Positive  | Positive       | Correct   |
-
-| Arrived broken, waste of money.            | Negative  | Negative       | Correct   |
-
-| It's okay, nothing special.                | Neutral   | Positive       | Incorrect |
-
+| Review | Reference | LLM Prediction | Result |
+|---|---|---|---|
+| Works fine but the battery died in a week. | Mixed | Positive | Incorrect |
+| Exactly what I needed, five stars! | Positive | Positive | Correct |
+| Arrived broken, waste of money. | Negative | Negative | Correct |
+| It's okay, nothing special. | Neutral | Positive | Incorrect |
 
 
 ## **3) Accuracy Calculation**
